@@ -1,0 +1,119 @@
+data(iris)
+?iris
+table(iris$Species)
+head(iris) 
+runif(2,30,50)
+set.seed(56);runif(2,30,50)
+runif(2,30,50)
+set.seed(56);
+runif(2,30,50)
+library(caret)
+set.seed(56); Partition=createDataPartition
+library(caret)
+set.seed(56); Partition=createDataPartition
+library(caret)
+library(mlbench)
+data(Zoo)
+Zoo=Zoo[-30,]
+history()
+set.seed(42)
+set.seed(42);particion=createDataPartition(y=zoo$legs,p=.8,list=FALSE)
+set.seed(42);particion=createDataPartition(y=Zoo$legs,p=.8,list=FALSE)
+dim(Zoo)
+names(Zoo)
+a=1
+a
+particion
+entrenar=Zoo(particion,)
+entrenar=Zoo[particion,]
+test=Zoo[-particion]
+dim(Zoo)
+dim(entrenar)
+dim(test)
+fix(entrenar)
+q()
+fix(test)
+#Particionar el dataset en train y test
+set.seed(42);particion=createDataPartition(y=Zoo$legs,p=.8,list=FALSE)
+1:17 AM
+entrenar=Zoo[particion,]
+test=Zoo[-particion,]
+set.seed(42);particion=createDataPartition(y=Zoo$legs,p=.8,list=FALSE)
+entrenar=Zoo[particion,]
+test=Zoo[-particion,]
+entrenar
+test
+library(rpart)
+names(Zoo)
+arbol=rpart(legs~
+buffalo=Zoo[row.names(Zoo)=="buffalo",]
+buffalo=Zoo[row.names(Zoo)=="buffalo",]
+predict(arbol,bufalo,type="class")
+pred=predict(arbol,test,type="class")
+pred
+install.packages('e1071', dependencies=TRUE)
+confusionMatrix(pred,test$legs)
+q()
+library(caret)
+library(mlbench)
+data(base)
+iris[numFlor,] 
+table(iris$Species)
+head(iris)
+iris$Petal.Lenght
+iris$Petal.Lenth
+iris$Petal.Length
+iris[1,] #base[filas,columnas]
+iris[97,] #base[filas,columnas]
+set.seed(997);particion=createDataPartition(y=base$y,p=.75,list=FALSE)
+set.seed(997);particion=createDataPartition(y=base$y,p=0.75,list=FALSE)
+entrenar=base[particion,]
+set.seed(997);particion=createDataPartition(y=base$y,p=.75,list=FALSE)
+data(Zoo)
+Zoo=Zoo[-30]
+Zoo$legs=factor(Zoo$legs)
+set.seed(997);particion=createDataPartition(y=base$y,p=.75,list=FALSE)
+iris
+iris$Species
+data("iris)
+))
+data("iris")
+library(caret)
+set.seed(997);particion=createDataPartition(y=base$y,p=0.75,list=FALSE)
+set.seed(997);particion=createDataPartition(y=base$y,p=0.75,list=FALSE)
+particion=createDataPartition(y=base$y,p=0.75,list=FALSE)
+q()
+print("¡Listo para el Análisis Exploratorio de Datos!")
+library(tidyverse)
+library(skimr)
+library(DataExplorer)
+library(ggplot2)
+data <- mtcars   # Cargar el dataset
+data <- mtcars 
+head(data)
+str(data) 
+summary(data)
+colSums(is.na(data))
+sum(duplicated(data)) 
+skim(data)
+ggplot(data, aes(x = mpg)) + 
+  geom_histogram(binwidth = 2, fill = "blue", color = "black") +
+  theme_minimal() +
+  ggtitle("Distribución de MPG (millas por galón)")
+ggplot(data, aes(y = mpg)) +
+  geom_boxplot(fill = "orange") +
+  ggtitle("Boxplot de MPG")
+ggplot(data, aes(x = hp, y = mpg)) +
+  geom_point(color = "red") +
+  ggtitle("Relación entre Caballos de Fuerza (hp) y Millas por Galón (mpg)") +
+  theme_minimal()
+correlation_matrix <- cor(data)
+print(correlation_matrix)
+library(corrplot)  # Si no lo tienes, instálalo con install.packages("corrplot")
+corrplot(correlation_matrix, method = "color", type = "upper")
+create_report(data)
+cd C:/ruta/del/proyecto
+write.csv(data, "data.csv", row.names = FALSE)
+getwd()
+q()
+save.image("C:\\Users\\User\\Documents\\EDA_script.R")
